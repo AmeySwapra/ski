@@ -7,6 +7,7 @@ import VideoPage from './pages/VideoPage'
 import ContactPage from './pages/ContactPage'
 import ServicePage from './pages/ServicePage'
 import ImagePage from './pages/ImagePage'
+import AboutPage from './pages/AboutPage'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path='/contact-us' element={<ContactPage/>} />
             <Route path='/services' element={<ServicePage/>} />
             <Route path='/gallery-images' element={<ImagePage/>} />
+            <Route path='/about-us' element={<AboutPage/>} />
           </Routes>
        </BrowserRouter>
     </>
