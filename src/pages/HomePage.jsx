@@ -10,12 +10,13 @@ import VisionMissionGoal from "../components/common/VissionMissionGoal";
 import VacuumLifterNote from "../components/VacuumLifterNote";
 import Navbar from "../components/common/Navbar";
 import CommonProducts from "../components/common/CommonProducts";
-
+import HeaderSlider from "../components/HeaderSlider";
 
 function HomePage() {
   return (
     <>
-       <Navbar/>
+      <Navbar />
+      <HeaderSlider />
       <VacuumLifterNote />
       <VisionMissionGoal />
       <AboutUs />
@@ -24,7 +25,7 @@ function HomePage() {
       <TestimonialsSection />
       <ClientsSlider />
       <Brochure />
-      <CommonProducts/>
+      <CommonProducts />
       <Footer />
     </>
   );
