@@ -97,7 +97,6 @@ const AnimatedRoutes = () => {
           <Route path='/electric-vacuum-lifter' element={<ElectricVacuumLifterPage />} />
           <Route path='/mechanical-vacuum-lifter' element={<MechanicalVacuumLifterPage />} />
           <Route path='/load-vacuum-lifter' element={<LoadVacuumLifterPage />} />
-          <Route path='/:city/' element={<HomePage />} />
         </Routes>
       </AnimatePresence>
     </>
