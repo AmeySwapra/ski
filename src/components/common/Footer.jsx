@@ -6,7 +6,6 @@ import {
   VStack,
   Divider,
   Icon,
-  Image,
   SimpleGrid,
 } from "@chakra-ui/react";
 import {
@@ -22,8 +21,21 @@ import {
 } from "react-icons/fa";
 
 const Footer = () => {
+  const handleScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+
   return (
-    <Box bg="black" color="white" px={[4, 8, 24]} py={20}>
+    <Box 
+      bg="black" 
+      color="white" 
+      px={[4, 8, 24]} 
+      py={20}
+      position="relative" // This makes the footer the positioning context
+    >
       <Box maxW="container.xl" mx="auto">
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} spacing={10}>
           {/* Pune Head Office */}
@@ -141,25 +153,30 @@ const Footer = () => {
             </Text>
           </Box>
         </SimpleGrid>
-      </Box>
 
-      {/* Scroll to Top */}
-      <Link
-        href="#"
-        position="fixed"
-        bottom="30px"
-        right="30px"
-        bg="teal.500"
-        color="white"
-        p={3}
-        borderRadius="full"
-        display="flex"
-        alignItems="center"
-        _hover={{ bg: "teal.600" }}
-      >
-        <Icon as={FaArrowUp} mr={2} />
-        <Text fontSize="sm">Scroll Up</Text>
-      </Link>
+        {/* Scroll to Top - Positioned at bottom of footer component */}
+        <Box
+          position="absolute"
+          bottom="20px"
+          right="20px"
+          zIndex="999"
+        >
+          <Link
+            onClick={handleScrollToTop}
+            bg="#f6a408"
+            color="black"
+            p={3}
+            borderRadius="full"
+            display="flex"
+            alignItems="center"
+            _hover={{ bg: "teal.600", textDecoration: "none" }}
+            boxShadow="md"
+          >
+            <Icon as={FaArrowUp} mr={2} />
+            <Text fontSize="sm">Scroll Up</Text>
+          </Link>
+        </Box>
+      </Box>
     </Box>
   );
 };

@@ -16,6 +16,7 @@ import IndustrialVacuumLifterPage from './pages/product-pages/IndustrialVacuumLi
 import ElectricVacuumLifterPage from './pages/product-pages/ElectricVacuumLifterPage'
 import MechanicalVacuumLifterPage from './pages/product-pages/MechanicalVacuumLifterPage'
 import LoadVacuumLifterPage from './pages/product-pages/LoadVacuumLifterPage'
+import ProductDetailsPage from './pages/product-pages/ProductDetailsPage'
 
 
 const PageOverlay = ({ onComplete }) => (
@@ -97,6 +98,7 @@ const AnimatedRoutes = () => {
           <Route path='/electric-vacuum-lifter' element={<ElectricVacuumLifterPage />} />
           <Route path='/mechanical-vacuum-lifter' element={<MechanicalVacuumLifterPage />} />
           <Route path='/load-vacuum-lifter' element={<LoadVacuumLifterPage />} />
+          <Route path="/products/:productSlug" element={<ProductDetailsPage />} />
         </Routes>
       </AnimatePresence>
     </>

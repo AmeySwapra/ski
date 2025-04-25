@@ -6,93 +6,94 @@ const ProductsSection = () => {
       id: 1,
       title: "Slab Lifter",
       image: "assets/images/products/slab-lifter.jpg",
-      link: "slab-lifter.php"
+      link: "products/slab-lifter"
     },
     {
       id: 2,
       title: "Billet Lifter",
       image: "assets/images/products/billet-lifter.jpg",
-      link: "billet-lifter.php"
+      link: "products/billet-lifter"
     },
     {
       id: 3,
       title: "Glass Vacuum Lifter",
       image: "assets/images/products/glass-vacuum-lifter.jpg",
-      link: "glass-vacuum-lifter.php"
+      link: "products/glass-vacuum-lifter"
     },
     {
       id: 4,
       title: "Industrial Vacuum Lifter",
       image: "assets/images/products/industrial-vacuum-lifter.jpg",
-      link: "industrial-vacuum-lifter.php"
+      link: "products/industrial-vacuum-lifter"
     },
     {
       id: 5,
       title: "Electric Vacuum Lifter",
       image: "assets/images/products/electric-vacuum-lifter.jpg",
-      link: "electric-vacuum-lifter.php"
+      link: "products/electric-vacuum-lifter"
     },
     {
       id: 6,
       title: "Fork Mounted Vacuum Lifting",
       image: "assets/images/products/fork-mounted-vacuum-lifting.jpg",
-      link: "fork-mounted-vacuum-lifting.php"
+      link: "products/fork-mounted-vacuum-lifting"
     },
     {
       id: 7,
       title: "Scissor Clamp Lifter",
       image: "assets/images/products/scissor-clamp-lifter.jpg",
-      link: "scissor-clamp-lifter.php"
+      link: "products/scissor-clamp-lifter"
     },
     {
       id: 8,
       title: "Vacuum Lifters",
       image: "assets/images/products/vacuum-lifters.jpg",
-      link: "vacuum-lifters.php"
+      link: "products/vacuum-lifters"
     },
     {
       id: 9,
       title: "Block Lifter",
       image: "assets/images/products/block-lifters.jpg",
-      link: "block-lifter.php"
+      link: "products/block-lifter"
     },
     {
       id: 10,
       title: "Vacuum Clamp",
       image: "assets/images/products/vacuum-clamp.jpg",
-      link: "vacuum-clamp.php"
+      link: "products/vacuum-clamp"
     },
     {
       id: 11,
       title: "Pipe / Bar Handling Clamp",
       image: "assets/images/products/pipe-bar-handling-clamp.jpg",
-      link: "pipe-bar-handling-clamp.php"
+      link: "products/pipe-bar-handling-clamp"
     },
     {
       id: 12,
       title: "Drum Handling Clamp",
       image: "assets/images/products/drum-handling-clamp.jpg",
-      link: "drum-handling-clamp.php"
+      link: "products/drum-handling-clamp"
     },
     {
       id: 13,
       title: "Vacuum Table",
       image: "assets/images/products/vacuum-table.jpg",
-      link: "vacuum-table.php"
+      link: "products/vacuum-table"
     },
     {
       id: 14,
       title: "Metal Sheet / Wooden Board Storage Tower",
       image: "assets/images/products/sheet-wooden-board.jpg",
-      link: "metal-sheet-wooden-board-storage-tower.php"
+      link: "products/metal-sheet-wooden-board-storage-tower"
     },
     {
       id: 15,
       title: "DE Palletizer",
       image: "assets/images/products/de-palletizer.jpg",
-      link: "de-palletizer.php"
+      link: "products/de-palletizer"
     }
   ];
+  
 
   return (
     <Box as="section" bg="#f7f6f1" py={16} px={[4,8,24]}>

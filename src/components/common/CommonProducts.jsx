@@ -11,22 +11,23 @@ import {
   } from "@chakra-ui/react";
   
   const products = [
-    { label: "Vacuum Lifter For Tiles", link: "vacuum-lifter-manufacturers-for-tiles" },
-    { label: "Vacuum Lifter For Concrete", link: "vacuum-lifter-manufacturers-for-concrete" },
-    { label: "Vacuum Lifter For Wood", link: "vacuum-lifter-manufacturers-for-wood" },
-    { label: "Vacuum Lifters For Panel", link: "vacuum-lifters-for-panel" },
-    { label: "Vacuum Lifters For Heavy Material", link: "vacuum-lifters-for-heavy-material" },
-    { label: "Vacuum Lifters For Industrial Use", link: "vacuum-lifters-for-industrial-use" },
-    { label: "Vacuum Lifters For Construction Site", link: "vacuum-lifters-for-construction-site" },
-    { label: "Vacuum Lifters For Warehouse", link: "vacuum-lifters-for-warehouse" },
-    { label: "Sheet Storage Rack", link: "sheet-storage-rack" },
-    { label: "Sheet Storage Roll Out Racks", link: "sheet-storage-roll-out-racks" },
-    { label: "Puff Panel Lifter", link: "puff-panel-lifter" },
-    { label: "Roof Panel Lifter", link: "roof-panel-lifter" },
-    { label: "Vacuum Grippers", link: "vacuum-grippers" },
-    { label: "Server Lifter", link: "server-lifter-in-india" },
-    { label: "Vacuum Solar Panel Lifters", link: "vacuum-solar-panel-lifters" },
+    { label: "Vacuum Lifter For Tiles", link: "#" },
+    { label: "Vacuum Lifter For Concrete", link: "#" },
+    { label: "Vacuum Lifter For Wood", link: "#" },
+    { label: "Vacuum Lifters For Panel", link: "#" },
+    { label: "Vacuum Lifters For Heavy Material", link: "#" },
+    { label: "Vacuum Lifters For Industrial Use", link: "#" },
+    { label: "Vacuum Lifters For Construction Site", link: "#" },
+    { label: "Vacuum Lifters For Warehouse", link: "#" },
+    { label: "Sheet Storage Rack", link: "#" },
+    { label: "Sheet Storage Roll Out Racks", link: "#" },
+    { label: "Puff Panel Lifter", link: "#" },
+    { label: "Roof Panel Lifter", link: "#" },
+    { label: "Vacuum Grippers", link: "#" },
+    { label: "Server Lifter", link: "#" },
+    { label: "Vacuum Solar Panel Lifters", link: "#" },
   ];
+  
   
   const locations = [
     { label: "Mumbai", link: "/" },
